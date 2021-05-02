@@ -14,6 +14,7 @@ export const SidebarData = [
         iconSetting: <LoIcons.IoMdSettings />,
         iconTool: <AiIcons.AiFillTool />,
         iconDoc: <HiIcons.HiFolder />,
+       
       },
     ],
   },
