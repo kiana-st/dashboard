@@ -4,6 +4,7 @@ import * as AiIcons from 'react-icons/ai';
 import * as LoIcons from 'react-icons/io';
 import * as HiIcons from 'react-icons/hi';
 import * as IoIcons from 'react-icons/io5';
+import * as BiIcons from 'react-icons/bi';
 
 export const SidebarData = [
   {
@@ -12,7 +13,6 @@ export const SidebarData = [
     iconUser: <FaIcons.FaUserCircle />,
     iconToggle: <IoIcons.IoChevronBackSharp />,
     iconUp: <FaIcons.FiMenu />,
-    iconLeft: <FaIcons.FiChevronLeft />,
   },
 
   {
@@ -27,6 +27,8 @@ export const SidebarData = [
     path: './اپلیکیشن ها',
     iconSetting: <LoIcons.IoMdSettings />,
     iconTool: <AiIcons.AiFillTool />,
+    iconOpened: <FaIcons.FiChevronLeft />,
+    iconClosed: <BiIcons.BiChevronDown />,
     subNavApp: [
       {
         title: 'همه اپلیکیشن ها',
@@ -55,6 +57,9 @@ export const SidebarData = [
     name: 'گزارشات',
     title: 'گزارشات',
     iconDoc: <HiIcons.HiFolder />,
+    iconOpen: <FaIcons.FiChevronLeft />,
+    iconOpened: <FaIcons.FiChevronLeft />,
+    iconClosed: <BiIcons.BiChevronDown />,
     subNavDoc: [
       {
         name: 'پرداخت ها',
