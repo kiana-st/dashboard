@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  /* background: #fff; */
+  background: orange;
+  height: 4.375rem;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 7px;
+}
+.user {
+  padding: 0px 16px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 1px solid #e3e6f0;
+}
+svg.usericon {
+  font-size: 2rem;
+  vertical-align: middle;
+  color: black;
+}
+.linkuser {
+  text-decoration: none;
+  color: #4e73df;
+}
