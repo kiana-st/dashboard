@@ -17,12 +17,13 @@
   border: none;
   text-decoration: none;
   cursor: pointer;
-  border-right: 1px solid #e3e6f0;
 }
 svg.usericon {
-  font-size: 2rem;
+  font-size: 41px;
   vertical-align: middle;
   color: black;
+  border-right: 1px solid #e3e6f0;
+  padding-right: 7px;
 }
 .linkuser {
   text-decoration: none;
