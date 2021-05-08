@@ -5,11 +5,14 @@ import './sidebar.css';
 function Sidebar() {
   return (
     <div>
-      <FaIcons.FaGrinWink  className="smileicon"/>
+      <nav className="navbar">
+        <ul className="navbar-nav">
+            <FaIcons.FaGrinWink className="smileicon" />
+          <li>dsfsdf</li>
+        </ul>
+      </nav>
     </div>
   );
 }
 
 export default Sidebar;
-
-
