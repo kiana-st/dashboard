@@ -7,60 +7,70 @@ import * as IoIcons from 'react-icons/io5';
 import * as BiIcons from 'react-icons/bi';
 
 export const SidebarData = [
+  // {
+  //   titleSmile: 'general',
+  //   iconSmile: <FaIcons.FaGrinWink />,
+  //   iconUser: <FaIcons.FaUserCircle />,
+  //   iconToggle: <IoIcons.IoChevronBackSharp />,
+  //   iconUp: <FaIcons.FiMenu />,
+  // },
   {
-    titleSmile: 'general',
-    iconSmile: <FaIcons.FaGrinWink />,
-    iconUser: <FaIcons.FaUserCircle />,
-    iconToggle: <IoIcons.IoChevronBackSharp />,
-    iconUp: <FaIcons.FiMenu />,
-  },
-
-  {
+    name: '',
     title: 'داشبورد',
-    iconDashboard: <AiIcons.AiOutlineDashboard />,
+    path: '/Dashboard',
+    icon: <AiIcons.AiOutlineDashboard />,
+    iconClosed: '',
+    iconOpened: '',
   },
 
   {
     name: 'مدیریت',
-    title1: 'اپلیکیشن ها',
-    title2: 'مدیریت',
+    title: 'اپلیکیشن ها',
     path: '/اپلیکیشن ها',
-    iconSetting: <LoIcons.IoMdSettings />,
-    iconTool: <AiIcons.AiFillTool />,
+    icon: <LoIcons.IoMdSettings />,
     iconOpened: <FaIcons.FiChevronLeft />,
     iconClosed: <BiIcons.BiChevronDown />,
-    subNavApp: [
+    subNav: [
       {
+        name: 'اپلیکیشن ها',
         title: 'همه اپلیکیشن ها',
         path: '/همه اپلیکیشن ها/اپلیکیشن ها/اپلیکیشن ها/مدیریت',
       },
       {
+        name: '',
         title: 'اپلیکیشن های من',
         path: '/اپلیکیشن های من/اپلیکیشن ها/اپلیکیشن ها/مدیریت',
       },
     ],
-    subNavTool: [
+  },
+  {
+    name: '',
+    title: 'مدیریت',
+    path: '/اپلیکیشن ها',
+    icon: <AiIcons.AiFillTool />,
+    iconOpened: <FaIcons.FiChevronLeft />,
+    iconClosed: <BiIcons.BiChevronDown />,
+    subNav: [
       {
-        name: ':کدهای فعال سازی',
-        title: 'پین کدهای من',
-        path: '/پین کدهای من/کدهای فعال سازی/مدیریت/مدیریت',
+        name: 'کدهای فعال سازی:',
+        title: 'مدیریت',
+        path: '/همه اپلیکیشن ها/اپلیکیشن ها/اپلیکیشن ها/مدیریت',
       },
       {
-        name: ':سخت افزارها',
+        name: 'سخت افزارها',
         title: 'سخت افزارهای من',
-        path: '/سخت افزارهای من/سخت افزارها/مدیریت/مدیریت/',
+        path: '/اپلیکیشن های من/اپلیکیشن ها/اپلیکیشن ها/مدیریت',
       },
     ],
   },
-
   {
     name: 'گزارشات',
     title: 'گزارشات',
-    iconDoc: <HiIcons.HiFolder />,
+    icon: <HiIcons.HiFolder />,
     iconOpen: <FaIcons.FiChevronLeft />,
     iconOpened: <FaIcons.FiChevronLeft />,
     iconClosed: <BiIcons.BiChevronDown />,
-    subNavDoc: [
+    subNav: [
       {
         name: 'پرداخت ها',
         title: 'گزارش پرداخت ها',
@@ -68,8 +78,8 @@ export const SidebarData = [
       },
       {
         name: 'کاربران',
-        title1: 'تیکت ها',
-        title2: 'پروفایل من',
+        title: 'تیکت ها',
+        title: 'پروفایل من',
         path: '/پروفایل من/کاربران/گزارشات/گزارشات',
       },
     ],

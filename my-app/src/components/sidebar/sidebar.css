@@ -1,0 +1,7 @@
+svg.smileicon {
+  font-size: 41px;
+  color: red;
+}
+.smileicon {
+  transform: 'rotate(90deg)';
+}

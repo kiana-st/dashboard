@@ -4,8 +4,8 @@
   padding: 0;
 }
 .nav {
-  /* background: #fff; */
-  background: orange;
+  background: #fff;
+  /* background: orange; */
   height: 4.375rem;
   display: flex;
   justify-content: flex-start;

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import * as FaIcons from 'react-icons/fa';
+import './sidebar.css';
 
 function Sidebar() {
   return (
     <div>
-      ssss
+      <FaIcons.FaGrinWink  className="smileicon"/>
     </div>
   );
 }
