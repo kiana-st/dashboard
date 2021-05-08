@@ -1,18 +1,42 @@
-.navbar{
-    background-color: #4e73df;
-    padding: 0 1rem;
-    border-bottom: 1px solid black;
+.navbar {
+  background-color: #4e73df;
+  width: 240px;
+  position: absolute;
+  height: 95vh;
+  right: 0;
+  /* left:-100%; */
+  padding:0 30px;
+  border-bottom: 1px solid black;
+  transition: all 1s;
+
 }
-.navbar-nav{
-    max-width: 100%;
-    height: 100%;
+.navbar .active{
+    /* left: 0; */
+}
+.navbar-nav {
+  padding: 0;
+}
+ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+ul li a {
+    color:rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding:10px 15px;
     display: flex;
     justify-content: flex-end;
 }
+ul li a:hover,
+ul li a.active{
+    color: #fff;
+}
 svg.smileicon {
-  font-size: 41px;
+  font-size: 36px;
   color: #fff;
 }
 .smileicon {
-  transform: 'rotate(90deg)';
+    transform: rotate(-20deg);
 }

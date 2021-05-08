@@ -6,9 +6,13 @@ function Sidebar() {
   return (
     <div>
       <nav className="navbar">
+      <FaIcons.FaGrinWink className="smileicon" />
         <ul className="navbar-nav">
-            <FaIcons.FaGrinWink className="smileicon" />
-          <li>dsfsdf</li>
+          <li></li>
+
+          <li>
+            <a href="/">ffff</a>
+          </li>
         </ul>
       </nav>
     </div>
