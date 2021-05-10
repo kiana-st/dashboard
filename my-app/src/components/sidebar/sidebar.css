@@ -69,9 +69,10 @@
   color: #fff;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 
 }
-.smileicon {
+.smileicon a svg{
   font-size: 40px;
   color: #fff;
   transform: rotate(-20deg);
