@@ -12,19 +12,20 @@ function Sidebar() {
     <>
       <div className="navbar">
         <Link to="#" className="menu-bars">
-          <IoIcons.IoChevronBackSharp onClick={showSidebar} />
+          <IoIcons.IoChevronBackCircle onClick={showSidebar}  />
         </Link>
       </div>
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
         <ul className="nav-menu-items" onClick={showSidebar}>
-          <li className="navbar-toggle">
-            <Link to="#" className="menu-bars">
-              <AiIcons.AiOutlineDashboard />
-            </Link>
-          </li>
-          <li>
+        <li>
             <Link to="#">sssss</Link>
           </li>
+          <li className="navbar-toggle">
+            <Link to="#" className="menu-bars">
+              <IoIcons.IoChevronForwardCircleSharp />
+            </Link>
+          </li>
+        
         </ul>
       </nav>
     </>
@@ -32,29 +33,3 @@ function Sidebar() {
 }
 
 export default Sidebar;
-
-// <Link>
-// <FaIcons.FaGrinWink className="smileicon" />
-// </Link>
-// <nav className={sidebar ? 'nav-bar active' : 'nav-menue'}>
-// <ul className="nav-menu-items">
-//   <li className="navbar-toggle">
-//     <Link to="#"> داشبورد</Link>
-//   </li>
-//   <li>
-//     <Link to="#">اپلیکیشن ها</Link>
-//   </li>
-//   <li>
-//     <Link to="#">مدیریت ها</Link>
-//   </li>
-//   <li>
-//     <Link to="#">گزارشات</Link>
-//   </li>
-// </ul>
-// </nav>
-// <Link to="#" className="toggle" onClick={showSidebar}>
-// <IoIcons.IoChevronBackSharp />
-// </Link>
-// <Link to="#" className="toggle">
-// <AiIcons.AiOutlineDashboard />
-// </Link>
