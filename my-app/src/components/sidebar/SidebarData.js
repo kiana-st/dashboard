@@ -1,5 +1,5 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+import * as FIIcons from 'react-icons/fi';
 import * as AiIcons from 'react-icons/ai';
 import * as LoIcons from 'react-icons/io';
 import * as HiIcons from 'react-icons/hi';
@@ -17,19 +17,21 @@ export const SidebarData = [
   {
     name: '',
     title: 'داشبورد',
-    path: '/Dashboard',
+    path: '/',
     icon: <AiIcons.AiOutlineDashboard />,
     iconClosed: '',
     iconOpened: '',
+    cName: 'nav-text',
   },
 
   {
     name: 'مدیریت',
     title: 'اپلیکیشن ها',
-    path: '/اپلیکیشن ها',
+    path: '/application',
     icon: <LoIcons.IoMdSettings />,
-    iconOpened: <FaIcons.FiChevronLeft />,
+    iconOpened: <FIIcons.FiChevronLeft />,
     iconClosed: <BiIcons.BiChevronDown />,
+    cName: 'nav-text',
     subNav: [
       {
         name: 'اپلیکیشن ها',
@@ -46,10 +48,11 @@ export const SidebarData = [
   {
     name: '',
     title: 'مدیریت',
-    path: '/اپلیکیشن ها',
+    path: '/manager',
     icon: <AiIcons.AiFillTool />,
-    iconOpened: <FaIcons.FiChevronLeft />,
+    iconOpened: <FIIcons.FiChevronLeft />,
     iconClosed: <BiIcons.BiChevronDown />,
+    cName: 'nav-text',
     subNav: [
       {
         name: 'کدهای فعال سازی:',
@@ -66,10 +69,11 @@ export const SidebarData = [
   {
     name: 'گزارشات',
     title: 'گزارشات',
+    path: '/reports',
     icon: <HiIcons.HiFolder />,
-    iconOpen: <FaIcons.FiChevronLeft />,
-    iconOpened: <FaIcons.FiChevronLeft />,
+    iconOpened: <FIIcons.FiChevronLeft />,
     iconClosed: <BiIcons.BiChevronDown />,
+    cName: 'nav-text',
     subNav: [
       {
         name: 'پرداخت ها',
