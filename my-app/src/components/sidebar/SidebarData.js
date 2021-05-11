@@ -36,12 +36,12 @@ export const SidebarData = [
       {
         name: 'اپلیکیشن ها',
         title: 'همه اپلیکیشن ها',
-        path: '/',
+        path: '/application/allApp',
       },
       {
         name: '',
         title: 'اپلیکیشن های من',
-        path: '/',
+        path: '/application/myapp',
       },
     ],
   },
@@ -57,12 +57,12 @@ export const SidebarData = [
       {
         name: 'کدهای فعال سازی:',
         title: 'مدیریت',
-        path: '/',
+        path: '/manager/mypincode',
       },
       {
         name: 'سخت افزارها',
         title: 'سخت افزارهای من',
-        path: '/ ',
+        path: '/manager/myhardware',
       },
     ],
   },
@@ -78,17 +78,17 @@ export const SidebarData = [
       {
         name: 'پرداخت ها',
         title: 'گزارش پرداخت ها',
-        path: '/',
+        path: '/reports/reportPills',
       },
       {
         name: 'کاربران',
         title: 'تیکت ها',
-        path: '/',
+        path: '/reports/tickets',
       },
       {
         name: '',
         title: 'پروفایل من',
-        path: '/',
+        path: '/reports/myprofile',
       },
     ],
   },
